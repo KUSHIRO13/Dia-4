@@ -19,7 +19,7 @@ body .circulo-Big {
   width: 31.25em;
   border-radius: 50%;
   box-shadow: 12px 10px 15px 0 rgba(0, 0, 0, 0.6);
-  animation: alternate infinite 5s cubic-bezier(0.16, 1, 0.3, 1) agrandar1;
+  animation: alternate infinite 3s cubic-bezier(0.16, 1, 0.3, 1) agrandar1;
 }
 body .circulo-Middle {
   z-index: 2;
@@ -29,7 +29,7 @@ body .circulo-Middle {
   width: 21.875em;
   border-radius: 50%;
   box-shadow: 12px 10px 15px 0 rgba(0, 0, 0, 0.6);
-  animation: alternate infinite 5s cubic-bezier(0.16, 1, 0.3, 1) agrandar2 both;
+  animation: alternate infinite 3s cubic-bezier(0.16, 1, 0.3, 1) agrandar2 both;
 }
 body .circulo-Small {
   position: absolute;
@@ -39,7 +39,7 @@ body .circulo-Small {
   width: 9.375em;
   border-radius: 50%;
   box-shadow: 12px 10px 15px 0 rgba(0, 0, 0, 0.6);
-  animation: alternate infinite 5s cubic-bezier(0.16, 1, 0.3, 1) agrandar3 both;
+  animation: alternate infinite 3s cubic-bezier(0.16, 1, 0.3, 1) agrandar3 both;
 }
 
 @keyframes agrandar1 {
